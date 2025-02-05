@@ -9,6 +9,6 @@ app.use(cors());
 app.use(express.json()); // For parsing JSON requests
 
 // Routes
-app.use("/tasks", taskRoutes);
+app.use("/tasks/v1", taskRoutes);
 
 export default app;
