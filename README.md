@@ -13,9 +13,9 @@ A simple RESTful API for managing tasks using Node.js and Express.
 2. Install dependencies:
    ```sh
    npm install
-3. Start the Server
+3. change directory to src where the server.js is located then Start the Server
 ```sh
-npm start
+nodemon/node server.js
 ```
 By default, the server will run at:
 `http://localhost:3000`
